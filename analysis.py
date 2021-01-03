@@ -2,12 +2,12 @@ import MeCab
 from collections import Counter                             # for counting most common elements
 
 # tag mecab-ipadic-neologd dictionary
-mct = MeCab.Tagger("-O chasen -d andre/mecab-ipadic-neologd/") #Fix this, error is that the path file not found
+mct = MeCab.Tagger('-r /dev/null -d /usr/local/lib/mecab/dic/dicrc') 
 
 # simple recreation of previous MeCab command line tests; parse and tokenize sentence
 print(mct.parse('今日は。私はアンドレです。'))
 
-read_text = open('.txt', 'r').read()              # Read .txt file, japanese text.  
+read_text = open('grasshopper.txt', 'r').read()              # Read .txt file, japanese text.  
 
 # split text into sentences on '。' character, and then replace the ending '。' on all sentences
 text_lines = read_text.split('。')
