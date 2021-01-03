@@ -1,7 +1,7 @@
 import MeCab
 from collections import Counter                             # for counting most common elements
 
-# tag mecab-ipadic-neologd dictionary
+# tag mecab dictionary
 mct = MeCab.Tagger('-r /dev/null -d /usr/local/lib/mecab/dic/dicrc') 
 
 # simple recreation of previous MeCab command line tests; parse and tokenize sentence
