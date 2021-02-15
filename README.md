@@ -1,6 +1,6 @@
 # Japanese-NLP-Analyses
 
-Built a simple web app deployed onto Streamlit that does simple jp text analysis.
+Built a simple web app deployed onto Streamlit.io that does simple jp text analysis.
 This is just a passion project meant to teach me how to 1) deploy apps 2) word tokenization on individual japanese sentences
 3) frequency analysis 4) quick conversion of japanese sentences.
 
