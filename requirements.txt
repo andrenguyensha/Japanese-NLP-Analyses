@@ -1,0 +1,33 @@
+# Japanese-NLP-Analyses/app.py: 2
+Flask == 1.1.2
+
+# Japanese-NLP-Analyses/app.py: 3
+Werkzeug == 1.0.1
+
+# Japanese-NLP-Analyses/analysis.py: 1
+# Japanese-NLP-Analyses/demo.py: 4
+# Japanese-NLP-Analyses/demo2.py: 4
+# Japanese-NLP-Analyses/past_present_output.py: 1
+mecab == 0.996.2
+
+# Japanese-NLP-Analyses/analysis.py: 1
+# Japanese-NLP-Analyses/demo.py: 4
+# Japanese-NLP-Analyses/demo2.py: 4
+# Japanese-NLP-Analyses/past_present_output.py: 1
+mecab-cygwin == 0.5.0
+
+# Japanese-NLP-Analyses/analysis.py: 1
+# Japanese-NLP-Analyses/demo.py: 4
+# Japanese-NLP-Analyses/demo2.py: 4
+# Japanese-NLP-Analyses/past_present_output.py: 1
+mecab-python-windows == 0.996.3
+
+# Japanese-NLP-Analyses/analysis.py: 1
+# Japanese-NLP-Analyses/demo.py: 4
+# Japanese-NLP-Analyses/demo2.py: 4
+# Japanese-NLP-Analyses/past_present_output.py: 1
+mecab-python3 == 1.0.3
+
+# Japanese-NLP-Analyses/demo.py: 1
+# Japanese-NLP-Analyses/demo2.py: 1
+streamlit == 0.76.0

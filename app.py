@@ -4,7 +4,6 @@ from werkzeug.utils import secure_filename
 import analysis
 import past_present_output
 
-
 app = Flask(__name__)
 
 @app.route("/")
